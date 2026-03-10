@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.inputSection input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.inputSection button {
+  width: 15%;
+  padding: 8px 14px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputSection button:hover {
+  background-color: #45a049;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.task span {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.task button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:nth-child(3) {
+  background-color: #2196f3;
+  color: white;
+}
+
+.task button:nth-child(4) {
+  background-color: #f44336;
+  color: white;
+}
+
+.task button:hover {
+  opacity: 0.9;
+}
+
+.editSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.editInput {
+  flex: 1;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.saveBtn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+.saveBtn:hover {
+  background-color: #e68900;
+}
